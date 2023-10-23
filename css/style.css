@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/*------------ header section-------------- */
+
+.maxwidth {
+    width: 1270px;
+    margin: auto;
+}
+
+.header {
+    background-color: #2a2a2a;
+}
+
+.header-left {
+    float: left;
+    width: 30%;
+}
+
+.header-left img {
+    width: 180px;
+    height: auto;
+}
+
+.header-right {
+    float: right;
+    width: 70%;
+}
+
+.header-right ul {
+    text-align: right;
+}
+
+.header-right ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.header-right ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 22px;
+    padding: 0 30px;
+    line-height: 64px;
+    border-right: 1px solid;
+    transition: .4s;
+}
+
+.header-right ul li a:hover {
+    background-color: #2980b9;
+}
+
+
+/* ----------------------------------------- */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+form {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+label,
+p {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+input[type="checkbox"]:checked:before {
+    content: "\2713";
+    color: #007BFF;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+footer {
+    background-color: #2a2a2a;
+    color: #f5f5f5;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-logo {
+    max-width: 250px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.footer-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+    font-size: 20px;
+    background: white;
+    padding: 4px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+.footer-menu a:hover {
+    color: #007BFF;
+}
+/* Subscription form styles */
+
+.subscription-wrapper {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.subscription-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.subscription-form input[type="email"] {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.subscription-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #007BFF;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscription-form button:hover {
+    background-color: #0056b3;
+}
+
+.subscription-wrapper h2 {
+    color: white;
+}

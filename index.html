@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Registration Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div class="header clearfix">
+    <div class="maxwidth">
+
+        <div class="header-left">
+            <a href="#">
+                <img src="./img/logo.png" alt="">
+            </a>
+        </div>
+        <div class="header-right">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">product</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<form action="action" method="POST">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required><br><br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required><br><br>
+
+    <label for="fatherName">Father's Name:</label>
+    <input type="text" id="fatherName" name="fatherName" required><br><br>
+
+    <label for="motherName">Mother's Name:</label>
+    <input type="text" id="motherName" name="motherName" required><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <label for="address">Address Line:</label>
+    <input type="text" id="address" name="address" required><br><br>
+
+    <label for="postalCode">Postal Code:</label>
+    <input type="text" id="postalCode" name="postalCode" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <p>Skills:</p>
+    <input type="checkbox" id="webDesign" name="skills[]" value="webDesign">
+    <label for="webDesign">Web Design</label><br>
+    
+    <input type="checkbox" id="appDevelopment" name="skills[]" value="appDevelopment">
+    <label for="appDevelopment">App Development</label><br>
+    
+    <input type="checkbox" id="uxuiDesign" name="skills[]" value="uxuiDesign">
+    <label for="uxuiDesign">UX/UI Design</label><br>
+    
+    <input type="checkbox" id="marketingExpert" name="skills[]" value="marketingExpert">
+    <label for="marketingExpert">Marketing Expert</label><br>
+    
+    <input type="checkbox" id="seo" name="skills[]" value="searchEngineOptimization">
+    <label for="seo">Search Engine Optimization</label><br><br>
+
+    <label for="comment">Comment:</label><br>
+    <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+<footer>
+    <div class="footer-container">
+        <!-- Column 1: Logo & Address -->
+        <div class="footer-column">
+            <img src="./img/logo.png" alt="Your Logo" class="footer-logo">
+            <p>123 Your Street, Your City, 12345</p>
+            <p>Phone: +1234567890</p>
+        </div>
+
+        <!-- Column 2: Menu Items -->
+        <div class="footer-column">
+            <ul class="footer-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/admin">Admin</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 3: Subscription Form -->
+<div class="subscription-wrapper">
+    <h2>Subscribe to our Newsletter</h2>
+    <form class="subscription-form">
+        <input type="email" id="subscription-email" placeholder="Enter your email address" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+
+    </div>
+</footer>
+
+<script src="./js/app.js"></script>
+</body>
+</html>
